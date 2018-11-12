@@ -1,0 +1,138 @@
+@import "./reset.css";
+@import url('https://use.typekit.net/ttp2jlf.css');
+
+body {
+  color: #333333;
+
+  font-family: pragmatica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-family: pragmatica, sans-serif;
+  font-weight: 700;
+}
+
+h1, h2, h3, p, ul, blockquote {
+  width: 700px;
+  margin: 0 auto;
+}
+
+p, blockquote, li, h3 {
+	line-height: 34px;
+}
+
+blockquote {
+  padding-right: 20px;
+  padding-left: 17px;
+
+  border-left: 3px solid #cccccc;
+
+  font-style: italic;
+}
+
+p + p, p + blockquote, blockquote + p, blockquote + blockquote, blockquote + h2, blockquote + h3 {
+	margin-top: 29px;
+}
+
+img {
+  display: block;
+
+  width: 1020px;
+  margin: 40px auto;
+}
+
+h1 {
+  margin-bottom: 25px;
+
+  color: #cccccc;
+
+  font-size: 48px;
+  line-height: 55px;
+}
+
+h2 {
+  font-size: 34px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h2 + h3, h2 + p {
+  margin-top: 15px;
+}
+
+h2 + p, h3 + p, h3 + ul {
+  margin-bottom: 20px;
+}
+
+h3 + p, p + h2 {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+a:hover {
+  color: #cccccc;
+}
+
+ul {
+  margin-top: 15px;
+  padding-left: 60px;
+
+  list-style-type: disc;
+}
+
+section {
+  display: flex;
+
+  margin-top: 50px;
+
+  justify-content: space-around;
+}
+
+.module {
+  display: flex;
+  flex-direction: column;
+
+  width: 32%;
+}
+
+.number {
+  display: flex;
+
+  width: 100%;
+  min-height: 600px;
+  margin-bottom: 15px;
+
+  color: #ffffff;
+  background-color: #000000;
+
+  font-size: 300px;
+  line-height: 100px;
+
+  align-items: flex-end;
+}
+
+.number a {
+  padding-left: 10px;
+
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.number a:hover {
+  color: #990000;
+}
